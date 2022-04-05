@@ -1,0 +1,137 @@
+/*Login*/
+body{
+   position:absolute;
+   flex-wrap: wrap;
+}
+
+.nav{
+    color:#fff;
+    text-decoration: none;
+    background-color: #81adb8;
+    justify-content: space-between;
+    align-items: center;
+}
+.navh1{
+    font-size:40px;
+    margin: auto;
+    cursor: pointer;
+}
+.nave{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+}
+h5{
+    font-size:15px;
+    margin: 10px;
+}
+.correo{
+    margin-top:5px;
+    border-radius: 5px;
+    border: 1px solid rgb(116, 116, 116);
+    cursor: pointer;
+    padding: 4px 10px;
+}
+.pass{
+    margin-top:5px;
+    border-radius: 5px;
+    border: 1px solid rgb(116, 116, 116);
+    cursor: pointer;
+    padding: 4px 10px;
+}
+.btn{
+    padding:1px 8px;
+    margin-left: 50px;
+    margin-top:20px;
+    cursor: pointer;
+}
+
+
+/*Registro*/
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.redHead{
+    margin: 45px;
+}
+.h2head{
+    font-size:20px;
+    margin: 10px;
+}
+.RedIMg{
+    height:50vh;
+    border-radius:15px;
+}
+.registro{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.H2registro{
+    font-size:25px;
+    margin: 10px 0;
+}
+.H2de{
+    font-size:15px;
+}
+
+.formIput{
+    width:30%;
+    margin:8px auto;
+    border-radius: 5px;
+    border: 1px solid rgb(116, 116, 116);
+    cursor: pointer;
+    height: 5vh;
+}
+
+.formLar{
+    width:60.9%;
+    margin:8px auto;
+    border-radius: 5px;
+    border: 1px solid rgb(116, 116, 116);
+    cursor: pointer;
+    height: 5vh;
+}
+
+.h3Regis{
+    font-size: 15px;
+    color:rgb(116, 113, 113);
+    margin:8px auto;
+}
+
+.dateF{
+    cursor: pointer;
+    height: 5vh;
+    width:19%;
+}
+.fa-solid {
+    cursor: pointer;
+}
+.h3RegiSexo{
+    font-size: 15px;
+    color: #000;
+    margin:8px auto;
+    
+}
+.formSexo{
+    margin-right: 5px;
+    cursor: pointer;
+    color:rgb(116, 113, 113);
+}
+.registrop{
+    color:rgb(116, 113, 113);
+}
+.registro
+.btn{
+    width: 30%;
+    margin: auto;
+    padding:8px;
+}
+.pre a{
+    margin: auto;
+    text-decoration: none;
+}

@@ -1,0 +1,357 @@
+:root{
+    --gris:#336470 /*#555555ce*/;
+    --navgris: #81adb8 /*#a788a7*/;
+    --navgriss:  #569fb1 /*#bc8cb4*/;
+    --navblanco: #cbf5ff;
+    --bodyblanco: #46808f;
+}
+
+
+body a{
+    text-decoration:none;
+    color: rgb(20, 20, 20);
+   
+}
+body{   
+    background-color: var(--navblanco);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--navgris);
+    width: 100%;
+    z-index: 100;
+    padding:15px;
+}
+.navconte{
+    margin: auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navconte
+.fa-brands{
+    border-radius: 100%;
+    margin-right:10px ;
+    cursor: pointer;
+    height: 5vh;
+    
+}
+.navconte
+.bucadorNav{
+    border-radius: 20px;
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+
+}
+
+.navcontenidomedio{
+    margin:auto;
+      
+}
+.navcontenidomedio
+.fa-solid{
+     display:inline;
+     justify-content:space-around;
+     align-items: center;
+     margin-left: 80px;
+     font-size:20px;
+     padding:15px
+}
+
+.navbar
+a 
+i:hover{
+    overflow-x: hidden;
+    box-shadow:0px 20px  20px 10px var(--gris);
+    position: inherit;
+    z-index: 100;
+    border-bottom: 5px solid black;
+    background-color:var(--navgriss);
+}
+
+.navcontenidfinal
+ .imgNA{
+    padding:15px; 
+}
+
+.navcontenidfinal
+ .imgNA:hover{
+    box-shadow:0px 20px  20px 10px var(--gris);
+    position: inherit;
+    border-bottom: 5px solid black;
+    background-color:var(--navgriss);
+}
+.navcontenidfinal{
+    margin: auto;
+}
+
+.navcontenidfinal a i{
+    display:inline;
+     justify-content:space-around;
+     align-items: center;
+     margin-left: 70px;
+     font-size:20px;
+     padding:15px; 
+}
+
+.imgfinal{
+    border-radius:50%;
+    height:4vh;
+    
+}
+
+
+/*<!--sidebar IZquierdo-->*/
+
+.hijo{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+
+.sideArti{
+   display: block;
+   justify-content:center;
+   align-items: center;
+   
+}
+.sideArti a i{
+        display:block;
+        margin-top: 20px;
+        font-size: 12px;
+        padding:10px;
+}
+.sideArti a i:hover{
+    box-shadow:8px 8px 8px -2px var(--navgriss) ;
+    background-color:var(--navgriss); 
+}
+
+.sideArti 
+.sideim{
+    padding:5px;
+    font-size: 20px;
+}
+
+.sideArti 
+.sideim:hover{
+    box-shadow:8px 8px 8px -2px var(--navgris) ;
+    position: inherit;
+    border-bottom: 5px solid black;
+    background-color:var(--navgriss);
+   
+}
+
+.perfileima{
+    height:5vh;
+    border-radius: 100%;
+}
+
+.sideh5{
+    font-size:15px;
+}
+
+/*<!--status carousel-->*/
+.carousel{
+    display:block;
+}
+
+.contenidoCarrusel{
+    display: flex;
+    margin:auto 130px ;
+}
+
+.contenidoCarrusel article{
+    background-image: url(../images/guson.png);
+     background-repeat: no-repeat;
+     background-position: center;
+    margin-right: 10px;
+    height:230px;
+    width: 120px;
+    border-radius: 50px;    
+    cursor: pointer;
+    box-shadow:0px 5px 17px -7px rgb(0, 0, 0 0.75);
+    transition: transform 100ms ease-in;
+}
+
+.contenidoCarrusel article:hover{
+   transform: scale(1.1);
+}
+
+.avatar{
+    margin: 10px;
+    height: 7vh;
+    border-radius: 80%;
+}
+
+/* <!--bodymediio-->*/
+
+
+.bodymediio{
+    width: 73%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin:20px  130px;
+}
+
+.publicarBodu{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 38px;
+    padding:1px;
+    background-color: var(--navgris);
+
+}
+
+.publicarBodu a input{
+    width: 90%;
+    height: 6vh;
+    border-radius: 80px;
+    margin:10px 30px;
+    border:none;
+    cursor: pointer;
+    
+}
+
+.formPublicidad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:15px;
+    margin: 6px;  
+    
+}
+
+.formPublicidad
+a{
+    cursor: pointer;
+    padding:2px;
+    border-radius: 10px;
+    
+}
+
+.formPublicidad
+a:hover{    
+    background-color:var(--bodyblanco);
+}
+
+.publicarSala{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    padding:2px;
+    border-radius: 40px;
+    font-size:15px;
+    background-color: var(--navgris);
+}
+
+.publicarSala a i{
+    font-size:30px;
+}
+
+.fpubli{
+    border-radius:15px;
+    padding:2px;
+
+}
+.fpubli:hover{
+    background-color:var(--bodyblanco);
+
+}
+
+.img-responsive{
+        border-radius:100% ;
+        height:7vh;
+        padding:3px;
+        cursor: pointer;
+}
+.img-responsive:hover{
+    background-color:var(--bodyblanco);
+}
+
+/*<!--sidebar Derecho-->*/
+.sidebarr{
+    margin:auto ;
+   
+}
+.sidelArti
+.menu{
+    display:flex;
+    justify-content: space-between;
+    font-size:18px;
+    
+}
+
+.sidelArti
+.solicitud img{
+    height: 5vh;
+    border-radius:100%;
+}
+    
+.menu a i{
+    cursor: pointer;
+}
+
+.solicitud
+.soliContenido{
+    display:block;
+}
+
+.soliContenido
+.h2Soli{
+    font-size: 18px;
+    margin-top:10px;
+    cursor: pointer;
+    padding: 10px;
+}
+.soliContenido
+.h2Soli:hover{
+  background-color: var(--navgriss);
+  border-radius: 20px   ;
+}
+
+.soliContenido
+button{
+    width:100%;
+    margin-top: 10px;
+}
+
+.formco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.formco
+.contac{
+    font-size:18px;
+    cursor: pointer;
+}
+
+.contactoLabel{
+    display: block;
+}
+.contactoLabel
+.labelcontacto
+h5 a
+{
+    margin-top:10px;
+    font-size:18px;
+    cursor: pointer;
+    padding:5px;
+}  
+
+.contactoLabel
+.labelcontacto:hover
+{
+    background-color:var(--navgriss);
+    border-radius: 20px;
+}  
