@@ -11,6 +11,7 @@
     <!--css-->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Facebook</title>
 </head>
 <body>
@@ -18,14 +19,15 @@
     <div class="nav" class="d-flex">
         <h1 class="navh1">WakaCode</h1>
         <nav class="nave" class="d-flex">
-            <h5 class="h5nav">Correo electronico <br> <input type="text" class="correo" id="correoNav"> </h5>
-            <h5 class="h5nav">Password <br> <input type="Password" class="pass" id="Navpassword"></h5>
+            <h2 class="navh2">WakaCode</h2>
+            <h5 class="h5nav">Correo electronico <br> <input type="text" class="correo" id="correoNav" required> </h5>
+            <h5 class="h5nav">Password <br> <input type="Password" class="pass" id="Navpassword" required></h5>
            <button class="btn btn-success" id="LoginBtn">Entrar</button>
         </nav>
     </div>
     <!--Registro-->
     <div class="head">
-        <div class="redHead">
+        <div class="redHead" id="redHead">
         <h2 class="h2head">Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida</h2>
          <img src="images/red.jpg" class="RedIMg">
         </div>
@@ -33,12 +35,12 @@
             <h2 class="H2registro">
                  Registro <br> <h2 class="H2de">Es rapido y facil</h2> 
             </h2>
-            <input type="text" id="NombreRe" placeholder="Nombre" class="formIput">
-            <input type="text" id="ApellidoRe" placeholder="Apellido" class="formIput"><br>
-            <input type="mail" type="number" id="mailRe" placeholder="Numero o Email" class="formLar"><br>
-            <input type="password" id="passRe" placeholder="Password nueva" class="formLar">
-            <h3 class="h3Regis">Fecha de nacimiento <br><br> <input type="date" id="fechaRe" class="dateF"> <i class="fa-solid fa-circle-question"></i></h3>
-            <h3 class="h3RegiSexo">Sexo<br><br> <input class="formSexo" type="checkbox" id="Mujer"> Mujer <input  class="formSexo" type="checkbox" id="Hombre"> Hombre <input class="formSexo" type="checkbox" id="P"> Personalizado <i class="fa-solid fa-circle-question"></i></h3>
+            <input type="text" id="NombreRe" placeholder="Nombre" class="formIput" required>
+            <input type="text" id="ApellidoRe" placeholder="Apellido" class="formIput" required><br>
+            <input type="mail" type="number" id="mailRe" placeholder="Numero o Email" class="formLar" required><br>
+            <input type="password" id="passRe" placeholder="Password nueva" class="formLar" required>
+            <h3 class="h3Regis">Fecha de nacimiento <br><br> <input type="date" id="fechaRe" class="dateF" required> <i class="fa-solid fa-circle-question"></i></h3>
+            <h3 class="h3RegiSexo">Sexo<br><br> <input class="formSexo" type="checkbox" id="Mujer" required> Mujer <input  class="formSexo" type="checkbox" id="Hombre"> Hombre <input class="formSexo" type="checkbox" id="P"> Personalizado <i class="fa-solid fa-circle-question"></i></h3>
             <br>
             <p class="registrop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum distinctio earum fugiat beatae quia ex odit, sed neque dolores aliquam? Exercitationem maxime nobis ducimus vel.</p>
             <button class="btn btn-success" id="btnS" >Registrarte</button>

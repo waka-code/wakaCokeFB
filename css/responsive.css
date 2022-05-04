@@ -1,0 +1,67 @@
+@media (max-width: 1000px){
+
+    .head
+    .redHead .RedIMg{
+      height:30vh;
+    }
+
+    .registro
+    .formIput{
+        width: 60%;
+    }
+}
+
+@media (max-width: 900px){
+
+    .head
+    {
+      display: none;
+    }
+    .navh1{
+        display: none;
+    }
+    
+    .navh2{
+        display: block;
+        font-size:30px;
+    }
+
+    .nav{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .nave{
+        flex: 1;
+        flex-direction: column;
+
+    }
+
+    .nave
+    .h5nav
+    input{
+        width: 50vw;
+        height: 6vh;
+    }
+  
+    .btn{
+        width: 40vw;
+        margin-right:50px;
+    }
+
+}
+
+@media  (max-width: 450px){
+    .nave
+    .h5nav
+    input{
+        width: 80vw;
+        height: 6vh;
+    }
+
+    .btn{
+        width: 40vw;
+    }
+}
+    
+

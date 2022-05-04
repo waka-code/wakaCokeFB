@@ -4,6 +4,9 @@ body{
    flex-wrap: wrap;
 }
 
+.navh2{
+    display: none;
+}
 .nav{
     color:#fff;
     text-decoration: none;
